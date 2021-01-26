@@ -1,15 +1,19 @@
 package com.tommy.bootstart.bootuptake.externalsettings;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
 /**
  * Section3. Spring Boot 활용
- * External Settings
+ * External Settings, Logging
  */
 @Component
 public class PropertiesRunner implements ApplicationRunner {
+
+    private Logger logger = LoggerFactory.getLogger(PropertiesRunner.class);
 
     private final HangyeolProperties hangyeolProperties;
 
@@ -19,11 +23,11 @@ public class PropertiesRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("===Hangyeol Properties===");
-        System.out.println(hangyeolProperties.getFullName());
-        System.out.println(hangyeolProperties.getName());
-        System.out.println(hangyeolProperties.getAge());
-        System.out.println(hangyeolProperties.getSessionTimeout());
-        System.out.println("=========================");
+        logger.debug("===Hangyeol Properties===");
+        logger.debug(hangyeolProperties.getFullName());
+        logger.debug(hangyeolProperties.getName());
+        logger.debug(String.valueOf(hangyeolProperties.getAge()));
+        logger.debug(String.valueOf(hangyeolProperties.getSessionTimeout()));
+        logger.debug("=========================");
     }
 }

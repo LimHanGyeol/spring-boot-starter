@@ -1,0 +1,87 @@
+2021-01-26 20:22:13.429  INFO 21408 --- [main] c.tommy.bootstart.BootStartApplication   : Starting BootStartApplication using Java 1.8.0_241 on DESKTOP-SMKSM3T with PID 21408 (C:\Users\HANGYEOL\Documents\spring-boot-start\target\classes started by HANGYEOL in C:\Users\HANGYEOL\Documents\spring-boot-start)
+2021-01-26 20:22:13.433  INFO 21408 --- [main] c.tommy.bootstart.BootStartApplication   : The following profiles are active: prod
+2021-01-26 20:22:15.008  INFO 21408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 20:22:15.026  INFO 21408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 20:22:15.027  INFO 21408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 20:22:15.154  INFO 21408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 20:22:15.155  INFO 21408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1631 ms
+2021-01-26 20:22:15.530  INFO 21408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:22:15.762  INFO 21408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 20:22:15.775  INFO 21408 --- [main] c.tommy.bootstart.BootStartApplication   : Started BootStartApplication in 3.06 seconds (JVM running for 5.164)
+2021-01-26 20:23:19.689  INFO 6392 --- [main] c.tommy.bootstart.BootStartApplication   : Starting BootStartApplication using Java 1.8.0_241 on DESKTOP-SMKSM3T with PID 6392 (C:\Users\HANGYEOL\Documents\spring-boot-start\target\classes started by HANGYEOL in C:\Users\HANGYEOL\Documents\spring-boot-start)
+2021-01-26 20:23:19.693 DEBUG 6392 --- [main] c.tommy.bootstart.BootStartApplication   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 20:23:19.693  INFO 6392 --- [main] c.tommy.bootstart.BootStartApplication   : The following profiles are active: prod
+2021-01-26 20:23:21.280  INFO 6392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 20:23:21.290  INFO 6392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 20:23:21.290  INFO 6392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 20:23:21.408  INFO 6392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 20:23:21.408  INFO 6392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1627 ms
+2021-01-26 20:23:21.812  INFO 6392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:23:22.026  INFO 6392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 20:23:22.040  INFO 6392 --- [main] c.tommy.bootstart.BootStartApplication   : Started BootStartApplication in 2.966 seconds (JVM running for 4.992)
+2021-01-26 20:28:11.995  INFO 26740 --- [main] c.tommy.bootstart.BootStartApplication   : Starting BootStartApplication using Java 1.8.0_241 on DESKTOP-SMKSM3T with PID 26740 (C:\Users\HANGYEOL\Documents\spring-boot-start\target\classes started by HANGYEOL in C:\Users\HANGYEOL\Documents\spring-boot-start)
+2021-01-26 20:28:11.998 DEBUG 26740 --- [main] c.tommy.bootstart.BootStartApplication   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 20:28:11.999  INFO 26740 --- [main] c.tommy.bootstart.BootStartApplication   : The following profiles are active: prod
+2021-01-26 20:28:13.556  INFO 26740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 20:28:13.575  INFO 26740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 20:28:13.576  INFO 26740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 20:28:13.803  INFO 26740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 20:28:13.804  INFO 26740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1724 ms
+2021-01-26 20:28:14.473  INFO 26740 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:28:14.816  INFO 26740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 20:28:14.829  INFO 26740 --- [main] c.tommy.bootstart.BootStartApplication   : Started BootStartApplication in 3.501 seconds (JVM running for 5.589)
+2021-01-26 20:28:14.838  INFO 26740 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod Lim
+2021-01-26 20:28:14.839  INFO 26740 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod
+2021-01-26 20:28:14.841  INFO 26740 --- [main] c.t.b.b.e.PropertiesRunner               : 28
+2021-01-26 20:28:14.852  INFO 26740 --- [main] c.t.b.b.e.PropertiesRunner               : PT25S
+2021-01-26 20:28:58.412  INFO 10652 --- [main] c.tommy.bootstart.BootStartApplication   : Starting BootStartApplication using Java 1.8.0_241 on DESKTOP-SMKSM3T with PID 10652 (C:\Users\HANGYEOL\Documents\spring-boot-start\target\classes started by HANGYEOL in C:\Users\HANGYEOL\Documents\spring-boot-start)
+2021-01-26 20:28:58.430 DEBUG 10652 --- [main] c.tommy.bootstart.BootStartApplication   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 20:28:58.431  INFO 10652 --- [main] c.tommy.bootstart.BootStartApplication   : The following profiles are active: prod
+2021-01-26 20:28:59.875  INFO 10652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 20:28:59.893  INFO 10652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 20:28:59.893  INFO 10652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 20:29:00.048  INFO 10652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 20:29:00.049  INFO 10652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1511 ms
+2021-01-26 20:29:00.406  INFO 10652 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:29:00.601  INFO 10652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 20:29:00.614  INFO 10652 --- [main] c.tommy.bootstart.BootStartApplication   : Started BootStartApplication in 3.079 seconds (JVM running for 5.187)
+2021-01-26 20:29:00.615  INFO 10652 --- [main] c.t.b.b.e.PropertiesRunner               : ===Hangyeol Properties===
+2021-01-26 20:29:00.616  INFO 10652 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod Lim
+2021-01-26 20:29:00.616  INFO 10652 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod
+2021-01-26 20:29:00.616  INFO 10652 --- [main] c.t.b.b.e.PropertiesRunner               : 28
+2021-01-26 20:29:00.616  INFO 10652 --- [main] c.t.b.b.e.PropertiesRunner               : PT25S
+2021-01-26 20:29:00.617  INFO 10652 --- [main] c.t.b.b.e.PropertiesRunner               : =========================
+2021-01-26 20:34:00.618  INFO 15244 --- [main] c.tommy.bootstart.BootStartApplication   : Starting BootStartApplication using Java 1.8.0_241 on DESKTOP-SMKSM3T with PID 15244 (C:\Users\HANGYEOL\Documents\spring-boot-start\target\classes started by HANGYEOL in C:\Users\HANGYEOL\Documents\spring-boot-start)
+2021-01-26 20:34:00.621 DEBUG 15244 --- [main] c.tommy.bootstart.BootStartApplication   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 20:34:00.622  INFO 15244 --- [main] c.tommy.bootstart.BootStartApplication   : The following profiles are active: prod
+2021-01-26 20:34:02.118  INFO 15244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 20:34:02.139  INFO 15244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 20:34:02.140  INFO 15244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 20:34:02.275  INFO 15244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 20:34:02.276  INFO 15244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1557 ms
+2021-01-26 20:34:02.619  INFO 15244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:34:02.825  INFO 15244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 20:34:02.841  INFO 15244 --- [main] c.tommy.bootstart.BootStartApplication   : Started BootStartApplication in 2.912 seconds (JVM running for 5.063)
+2021-01-26 20:34:02.844 DEBUG 15244 --- [main] c.t.b.b.e.PropertiesRunner               : ===Hangyeol Properties===
+2021-01-26 20:34:02.845 DEBUG 15244 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod Lim
+2021-01-26 20:34:02.845 DEBUG 15244 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod
+2021-01-26 20:34:02.845 DEBUG 15244 --- [main] c.t.b.b.e.PropertiesRunner               : 28
+2021-01-26 20:34:02.846 DEBUG 15244 --- [main] c.t.b.b.e.PropertiesRunner               : PT25S
+2021-01-26 20:34:02.847 DEBUG 15244 --- [main] c.t.b.b.e.PropertiesRunner               : =========================
+2021-01-26 20:41:48.466  INFO 2456 --- [main] c.tommy.bootstart.BootStartApplication   : Starting BootStartApplication using Java 1.8.0_241 on DESKTOP-SMKSM3T with PID 2456 (C:\Users\HANGYEOL\Documents\spring-boot-start\target\classes started by HANGYEOL in C:\Users\HANGYEOL\Documents\spring-boot-start)
+2021-01-26 20:41:48.471 DEBUG 2456 --- [main] c.tommy.bootstart.BootStartApplication   : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 20:41:48.472  INFO 2456 --- [main] c.tommy.bootstart.BootStartApplication   : The following profiles are active: prod
+2021-01-26 20:41:50.417  INFO 2456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-26 20:41:50.430  INFO 2456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 20:41:50.430  INFO 2456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 20:41:50.594  INFO 2456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 20:41:50.594  INFO 2456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1983 ms
+2021-01-26 20:41:50.997  INFO 2456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:41:51.212  INFO 2456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 20:41:51.220  INFO 2456 --- [main] c.tommy.bootstart.BootStartApplication   : Started BootStartApplication in 3.804 seconds (JVM running for 6.032)
+2021-01-26 20:41:51.222 DEBUG 2456 --- [main] c.t.b.b.e.PropertiesRunner               : ===Hangyeol Properties===
+2021-01-26 20:41:51.222 DEBUG 2456 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod Lim
+2021-01-26 20:41:51.222 DEBUG 2456 --- [main] c.t.b.b.e.PropertiesRunner               : hangyeol-prod
+2021-01-26 20:41:51.222 DEBUG 2456 --- [main] c.t.b.b.e.PropertiesRunner               : 28
+2021-01-26 20:41:51.222 DEBUG 2456 --- [main] c.t.b.b.e.PropertiesRunner               : PT25S
+2021-01-26 20:41:51.223 DEBUG 2456 --- [main] c.t.b.b.e.PropertiesRunner               : =========================
