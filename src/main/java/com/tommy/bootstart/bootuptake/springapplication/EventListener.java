@@ -1,4 +1,4 @@
-package com.tommy.bootstart.bootuptake;
+package com.tommy.bootstart.bootuptake.springapplication;
 
 import org.springframework.boot.context.event.ApplicationStartingEvent;
 import org.springframework.context.ApplicationListener;

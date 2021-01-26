@@ -1,6 +1,6 @@
 package com.tommy.bootstart;
 
-import com.tommy.bootstart.bootuptake.EventListener;
+import com.tommy.bootstart.bootuptake.springapplication.EventListener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
