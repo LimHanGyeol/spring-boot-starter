@@ -10,6 +10,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -47,7 +48,10 @@ class SampleControllerTest {
 
     @Test
     void hello_mockMvc() throws Exception {
-        mockMvc.perform(get("/hello"))
+        // given
+        given(mockSampleService.getName()).willReturn("hangyeol");
+
+        mockMvc.perform(get("/holoman"))
                 .andExpect(status().isOk())
                 .andExpect(content().string("Hello hangyeol"))
                 .andDo(print());
@@ -55,7 +59,13 @@ class SampleControllerTest {
 
     @Test
     void hello_testRestTemplate() {
-        String result = testRestTemplate.getForObject("/hello", String.class);
+        // given
+        given(mockSampleService.getName()).willReturn("hangyeol");
+
+        // when
+        String result = testRestTemplate.getForObject("/holoman", String.class);
+
+        // then
         assertThat(result).isEqualTo("Hello hangyeol");
     }
 
@@ -64,7 +74,7 @@ class SampleControllerTest {
         when(mockSampleService.getName()).thenReturn("hangyeol");
 
         webTestClient.get()
-                .uri("/hello")
+                .uri("/holoman")
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody(String.class).isEqualTo("Hello hangyeol");
@@ -74,7 +84,7 @@ class SampleControllerTest {
     void hello_mockController() {
         when(mockSampleService.getName()).thenReturn("hangyeol");
 
-        String result = testRestTemplate.getForObject("/hello", String.class);
+        String result = testRestTemplate.getForObject("/holoman", String.class);
 
         assertThat(result).isEqualTo("Hello hangyeol");
     }

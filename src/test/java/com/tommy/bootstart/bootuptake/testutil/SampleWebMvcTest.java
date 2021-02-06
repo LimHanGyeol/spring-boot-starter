@@ -30,7 +30,7 @@ public class SampleWebMvcTest {
     void hello() throws Exception {
         when(mockSampleService.getName()).thenReturn("hangyeol");
 
-        mockMvc.perform(get("/hello"))
+        mockMvc.perform(get("/holoman"))
                 .andExpect(status().isOk())
                 .andExpect(content().string("Hello hangyeol"));
     }
