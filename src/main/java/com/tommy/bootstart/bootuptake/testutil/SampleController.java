@@ -20,7 +20,7 @@ public class SampleController {
         this.sampleService = sampleService;
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/holoman")
     public String hello() {
         logger.info("holoman");
         return "Hello " + sampleService.getName();
