@@ -1,5 +1,6 @@
 package com.tommy.bootstart.bootuptake.mvc.user;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -15,7 +16,7 @@ import static org.hamcrest.Matchers.*;
 /**
  * Section3. Spring Boot 활용
  * Spring Web Mvc
- * HttpMessageConverter, ViewResolver
+ * HttpMessageConverter, ViewResolver, RestApi HATEOAS
  */
 @WebMvcTest(UserController.class)
 class UserControllerTest {
@@ -23,11 +24,15 @@ class UserControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
+    @Autowired
+    ObjectMapper objectMapper;
+
     @Test
     void hello() throws Exception {
         mockMvc.perform(get("/hello"))
+                .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("hello"));
+                .andExpect(jsonPath("$._links.self").exists());
     }
 
     @Test
