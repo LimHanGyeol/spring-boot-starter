@@ -17,6 +17,7 @@ import static org.hamcrest.Matchers.*;
  * Section3. Spring Boot 활용
  * Spring Web Mvc
  * HttpMessageConverter, ViewResolver, RestApi HATEOAS
+ * HATEOAS 의 사용방법이 많이 바뀌었다. 실 적용할때는 공식 레퍼런스를 잘 보고 도입해야 할 것 같다.
  */
 @WebMvcTest(UserController.class)
 class UserControllerTest {
