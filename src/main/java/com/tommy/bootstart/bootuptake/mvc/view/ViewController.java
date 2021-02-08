@@ -1,11 +1,8 @@
 package com.tommy.bootstart.bootuptake.mvc.view;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Section3. Spring Boot 활용
@@ -18,7 +15,7 @@ public class ViewController {
     @GetMapping("/view")
     public String view(Model model) {
         model.addAttribute("name", "hangyeol");
-        return "hello";
+        return "view";
     }
 
     @GetMapping("/exception")
