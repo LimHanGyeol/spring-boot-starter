@@ -1,4 +1,4 @@
-package com.tommy.bootstart.bootuptake.security;
+package com.tommy.bootstart.bootuptake.security.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

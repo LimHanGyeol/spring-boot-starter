@@ -1,5 +1,6 @@
 package com.tommy.bootstart.bootuptake.security;
 
+import com.tommy.bootstart.bootuptake.security.controller.HomeController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
