@@ -5,6 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Objects;
 
+/**
+ * Section3. Spring Boot 활용
+ * Spring Data JPA
+ */
 @Entity
 public class Account {
 
