@@ -8,6 +8,10 @@ import org.springframework.util.StopWatch;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
+/**
+ * Section3. Spring Boot 활용
+ * Rest Client - RestTemplate, WebClient
+ */
 @Component
 public class RestRunner implements ApplicationRunner {
 

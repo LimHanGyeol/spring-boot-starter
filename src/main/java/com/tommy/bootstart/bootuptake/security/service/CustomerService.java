@@ -14,6 +14,10 @@ import org.springframework.stereotype.Service;
 import java.util.Arrays;
 import java.util.Collection;
 
+/**
+ * Section3. Spring Boot 활용
+ * Spring Security
+ */
 @Service
 public class CustomerService implements UserDetailsService {
 

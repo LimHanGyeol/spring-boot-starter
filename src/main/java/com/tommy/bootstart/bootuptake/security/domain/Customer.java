@@ -4,6 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+/**
+ * Section3. Spring Boot 활용
+ * Spring Security
+ */
 @Entity
 public class Customer {
 

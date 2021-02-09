@@ -6,6 +6,10 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+/**
+ * Section3. Spring Boot 활용
+ * Spring Security
+ */
 @Component
 public class SecurityRunner implements ApplicationRunner {
 
